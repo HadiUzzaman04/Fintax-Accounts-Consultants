@@ -2,78 +2,55 @@
 
 namespace Modules\Frontend\Http\Controllers;
 
+use App\Http\Controllers\BaseController;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class FrontendController extends Controller
+class FrontendController extends BaseController
 {
-    /**
-     * Display a listing of the resource.
-     * @return Renderable
-     */
     public function index()
     {
-        return view('frontend::index');
+        return view('layouts.index');
     }
-
-    /**
-     * Show the form for creating a new resource.
-     * @return Renderable
-     */
-    public function create()
+    public function service()
     {
-        return view('frontend::create');
+        return view('layouts.page.service');
     }
-
-    /**
-     * Store a newly created resource in storage.
-     * @param Request $request
-     * @return Renderable
-     */
-    public function store(Request $request)
+    public function taxadvisory()
     {
-        //
+        return view('layouts.page.taxadvisory');
     }
-
-    /**
-     * Show the specified resource.
-     * @param int $id
-     * @return Renderable
-     */
-    public function show($id)
+    public function accounting()
     {
-        return view('frontend::show');
+        return view('layouts.page.accounting');
     }
-
-    /**
-     * Show the form for editing the specified resource.
-     * @param int $id
-     * @return Renderable
-     */
-    public function edit($id)
+    public function hra()
     {
-        return view('frontend::edit');
+        return view('layouts.page.hra');
     }
-
-    /**
-     * Update the specified resource in storage.
-     * @param Request $request
-     * @param int $id
-     * @return Renderable
-     */
-    public function update(Request $request, $id)
+    public function payroll()
     {
-        //
+        return view('layouts.page.payrollservice');
     }
-
-    /**
-     * Remove the specified resource from storage.
-     * @param int $id
-     * @return Renderable
-     */
-    public function destroy($id)
+    public function tax()
     {
-        //
+        return view('layouts.page.taxreturn');
+    }
+    public function smsf()
+    {
+        return view('layouts.page.smsf');
+    }
+    public function consulting()
+    {
+        return view('layouts.page.consulting');
+    }
+    public function aboutus()
+    {
+        return view('layouts.page.aboutus');
+    }
+    public function testimonials()
+    {
+        return view('layouts.page.testimonials');
     }
 }
