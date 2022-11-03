@@ -33,4 +33,5 @@ Route::prefix('website')->group(function () {
 
     //contactus
     Route::get('/contactus','ContactusController@contactus')->name('contactus');
+    Route::post('/contactus/store','ContactusController@create')->name('contactus.store');
 });

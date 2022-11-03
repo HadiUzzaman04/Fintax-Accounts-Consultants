@@ -6,7 +6,7 @@
         <h1>Self-Managed Super Fund</h1>
 
         <div class="image main">
-            <img src="images/banner-image-5-1920x500.jpg" class="img-fluid" alt="" />
+            <img src="images/SERVICES.jpg" class="img-fluid" alt="" />
         </div>
 
         <h2 class="m-n">Self-Managed Super Fund</h2>
@@ -14,7 +14,15 @@
 
         <h2>Self-Managed Super Fund advice and support</h2>
         <p>Making sure that your retirement is a good one, a self-managed super fund is a way of providing financial security to its members. It is a way of handling finances that allows members and their beneficiaries to receive benefits in retirement. At Fintax, our team of accountants will provide you, and other trustees, with extensive advice and information that you can implement into your financial future. Our service includes handing down advice when making investment decisions, and implementing a strategy that you can easily follow to reach the best outcome for your financial future. With a full understanding of the best way to gain solid outcomes, contact our team today.</p>
+
+        <div>
+            <a href="{{route('taxadvisory')}}"><input type="submit" value="Tax Advisory" class="primary" /></a>
+            <a href="{{route('accounting')}}"><input type="submit" value="Accounting" class="primary" /></a>
+            <a href="{{route('hra')}}"><input type="submit" value="HR Adminstration" class="primary" /></a>
+            <a href="{{route('payroll')}}"><input type="submit" value="Payroll Service" class="primary" /></a>
+            <a href="{{route('taxreturn')}}"><input type="submit" value="Tax Return" class="primary" /></a>
+        </div>
     </div>
 </div>
-
+<br>
 @endsection

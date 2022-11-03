@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <title>fintaxaccounts&consultant.com</title>
     <meta charset="utf-8" />
@@ -14,7 +15,6 @@
 <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
-
         <!-- Header -->
         @include('layouts.header')
 
@@ -25,14 +25,12 @@
         @include('layouts.footer')
 
     </div>
-
     <!-- Scripts -->
     <script src="{{asset('website/js/jquery.min.js')}}"></script>
     <script src="{{asset('website/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('website/js/jquery.scrolly.min.js')}}"></script>
     <script src="{{asset('website/js/jquery.scrollex.min.js')}}"></script>
     <script src="{{asset('website/js/main.js')}}"></script>
-
 </body>
 
 </html>

@@ -6,7 +6,7 @@
         <h1>Consulting</h1>
 
         <div class="image main">
-            <img src="images/banner-image-5-1920x500.jpg" class="img-fluid" alt="" />
+            <img src="images/bannae.jpg" class="img-fluid" alt="" />
         </div>
 
         <h2 class="m-n">COMPREHENSIVE FINANCIAL ANALYSIS OF THE COMPANY</h2>

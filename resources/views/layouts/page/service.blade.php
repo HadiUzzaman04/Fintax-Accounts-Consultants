@@ -6,14 +6,14 @@
         <h1>FINTAX Services</h1>
 
         <div class="image main">
-            <img src="images/banner-image-7-1920x500.jpg" class="img-fluid" alt="" />
+            <img src="images/bannae.jpg" class="img-fluid" alt="" />
         </div>
 
         <!-- Packages -->
         <section class="tiles">
             <article class="style1">
                 <span class="image">
-                    <img src="images/product-1-720x480.jpg" alt="" />
+                    <img style="width: 362px; height: 250px" src="images/taxadvisory.jpg" alt="" />
                 </span>
                 <a href="{{route('taxadvisory')}}">
                     <h2>Tax Advisory</h2>
@@ -26,7 +26,7 @@
             </article>
             <article class="style2">
                 <span class="image">
-                    <img src="images/product-2-720x480.jpg" alt="" />
+                    <img style="width: 362px; height: 250px" src="images/accounting.jpg" alt="" />
                 </span>
                 <a href="{{route('accounting')}}">
                     <h2>Accounting</h2>
@@ -39,7 +39,7 @@
             </article>
             <article class="style3">
                 <span class="image">
-                    <img src="images/product-3-720x480.jpg" alt="" />
+                    <img style="width: 362px; height: 250px" src="images/hra.jpg" alt="" />
                 </span>
                 <a href="{{route('hra')}}">
                     <h2>Human Resourdes Adminstration</h2>
@@ -53,7 +53,7 @@
 
             <article class="style4">
                 <span class="image">
-                    <img src="images/product-4-720x480.jpg" alt="" />
+                    <img style="width: 362px; height: 250px" src="images/Payroll.jpg" alt="" />
                 </span>
                 <a href="{{route('payroll')}}">
                     <h2>Payroll Service</h2>
@@ -67,7 +67,7 @@
 
             <article class="style5">
                 <span class="image">
-                    <img src="images/product-5-720x480.jpg" alt="" />
+                    <img style="width: 362px; height: 250px" src="images/taxreturn.jpg" alt="" />
                 </span>
                 <a href="{{route('taxreturn')}}">
                     <h2>Tax Return</h2>
@@ -81,7 +81,7 @@
 
             <article class="style6">
                 <span class="image">
-                    <img src="images/product-6-720x480.jpg" alt="" />
+                    <img style="width: 362px; height: 250px" src="images/smsf.jpg" alt="" />
                 </span>
                 <a href="{{route('smsf')}}">
                     <h2>Self Managed Super Funds (SMSF)</h2>

@@ -6,7 +6,7 @@
         <h1>Accounting</h1>
 
         <div class="image main">
-            <img src="images/banner-image-5-1920x500.jpg" class="img-fluid" alt="" />
+            <img src="images/SERVICES.jpg" class="img-fluid" alt="" />
         </div>
 
         <h2 class="m-n">Accounting</h2>
@@ -22,15 +22,15 @@
             <li> Tailored professional in-house trainings</li>
             <li> Administrative assistance for annual inventory process</li>
         </ul>
-        <ul class="actions">
-            <li><input type="submit" value="Accounting" class="primary" /></li>
-            <li><input type="submit" value="HR Adminstration" class="primary" /></li>
-            <li><input type="submit" value="Payroll Service" class="primary" /></li>
-            <li><input type="submit" value="Tax Return" class="primary" /></li>
-            <li><input type="submit" value="SMSF" class="primary" /></li>
-
-        </ul>
+        <div>
+            <a href="{{route('taxadvisory')}}"><input type="submit" value="Tax Advisory" class="primary" /></a>
+            <a href="{{route('hra')}}"><input type="submit" value="HR Adminstration" class="primary" /></a>
+            <a href="{{route('payroll')}}"><input type="submit" value="Payroll Service" class="primary" /></a>
+            <a href="{{route('taxreturn')}}"><input type="submit" value="Tax Return" class="primary" /></a>
+            <a href="{{route('smsf')}}"><input type="submit" value="SMSF" class="primary" /></a>
+        </div>
     </div>
 </div>
+<br>
 
 @endsection

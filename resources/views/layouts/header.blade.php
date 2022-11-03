@@ -3,7 +3,7 @@
 
         <!-- Logo -->
         <a href="{{route('home')}}" class="logo">
-            <span class="fa fa-plane"></span> <span class="title">Fintax</span>
+            <span class="title">Fintax</span>
         </a>
 
         <!-- Nav -->
@@ -20,7 +20,7 @@
 <nav id="menu">
     <h2>Menu</h2>
     <ul>
-        <li><a href="{{route('home')}}" class="active">Home</a></li>
+        <li><a href="{{route('home')}}">Home</a></li>
 
         <li><a href="{{route('service')}}">Services</a></li>
 
